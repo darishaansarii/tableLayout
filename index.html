@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="It is the layout of a table using HTML & CSS."
+    />
+    <meta name="keywords" content="HTML5, CSS3" />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Table</title>
+  </head>
+  <body>
+
+    <input type="search" placeholder="Search Keyword..." class="search-box">
+    <i class="fa-solid fa-arrow-up-wide-short"></i>
+
+    <button class="add-to-cart"><i class="fa-solid fa-cart-plus"></i>Add to carts products 0 items</button>
+
+    <button id="checkbox-label">
+      <label for="checkbox" >Select All</label>
+      <input type="checkbox" id="checkbox">
+    </button>
+
+    <br>
+    <select name="category" id="category">
+      <option value=""  selected disabled> -- category --</option>
+    </select>
+
+    <select name="category" id="stock">
+      <option value=""  selected disabled> -- stock --</option>
+    </select>
+
+    <input type="number" id="price" placeholder="Price">
+
+    <table>
+      <tr class="blue">
+        <td>Check</td>
+        <td>Thumbnails</td>
+        <td>Product Title <i class="fa-solid fa-arrow-down"></i></td>
+        <td>Category <br /><i class="fa-solid fa-arrow-down"></i></td>
+        <td>Stock <br /><i class="fa-solid fa-arrow-down"></i></td>
+        <td>Price <i class="fa-solid fa-arrow-down"></i></td>
+        <td>Quantity</td>
+        <td>Action</td>
+        <td>Quick View</td>
+        <td>Sku</td>
+        <td>Rating</td>
+        <td>Wishlist & Compare</td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>
+          <img
+            src="https://png.pngtree.com/png-vector/20231230/ourmid/pngtree-dropshipping-men-hole-sole-jogging-shoes-png-image_11389148.png"
+            alt=""
+          />
+        </td>
+        <td class="dark-blue">
+          Boots <br />
+          BU1171
+        </td>
+        <td class="sky-blue">Boots</td>
+        <td class="sky-blue">in <br />stock</td>
+        <td class="dark-blue">$115.000</td>
+        <td>
+          <span class="one-sided-round left">-</span
+          ><span class="square dark-blue">0</span
+          ><span class="one-sided-round right">+</span>
+        </td>
+        <td><i class="fa-solid fa-cart-shopping"></i></td>
+        <td><i class="fa-solid fa-eye"></i></td>
+        <td class="sky-blue">112</td>
+        <td class="sky-blue">5 <i class="fa-solid fa-star"></i></td>
+        <td>
+          <i class="fa-solid fa-heart"></i
+          ><i class="fa-solid fa-arrow-right-arrow-left"></i>
+        </td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>
+          <img
+            src="https://cdn.pixabay.com/photo/2016/11/19/18/06/feet-1840619_1280.jpg"
+            alt=""
+          />
+        </td>
+        <td class="dark-blue">
+          Boots <br />
+          BU1171
+        </td>
+        <td class="sky-blue">Boots</td>
+        <td class="sky-blue">
+          in <br />
+          stock
+        </td>
+        <td class="dark-blue">$115.000</td>
+        <td>
+          <span class="one-sided-round left">-</span
+          ><span class="square dark-blue">0</span
+          ><span class="one-sided-round right">+</span>
+        </td>
+        <td><i class="fa-solid fa-cart-shopping"></i></td>
+        <td><i class="fa-solid fa-eye"></i></td>
+        <td class="sky-blue">112</td>
+        <td class="sky-blue">5 <i class="fa-solid fa-star"></i></td>
+        <td>
+          <i class="fa-solid fa-heart"></i
+          ><i class="fa-solid fa-arrow-right-arrow-left"></i>
+        </td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>
+          <img
+            src="https://w7.pngwing.com/pngs/323/773/png-transparent-sneakers-basketball-shoe-sportswear-nike-shoe-outdoor-shoe-running-sneakers-thumbnail.png"
+            alt=""
+          />
+        </td>
+        <td class="dark-blue">
+          Boots <br />
+          BU1171
+        </td>
+        <td class="sky-blue">Boots</td>
+        <td class="sky-blue">
+          in <br />
+          stock
+        </td>
+        <td class="dark-blue">$115.000</td>
+        <td>
+          <span class="one-sided-round left">-</span
+          ><span class="square dark-blue">0</span
+          ><span class="one-sided-round right">+</span>
+        </td>
+        <td><i class="fa-solid fa-cart-shopping"></i></td>
+        <td><i class="fa-solid fa-eye"></i></td>
+        <td class="sky-blue">112</td>
+        <td class="sky-blue">5 <i class="fa-solid fa-star"></i></td>
+        <td>
+          <i class="fa-solid fa-heart"></i
+          ><i class="fa-solid fa-arrow-right-arrow-left"></i>
+        </td>
+      </tr>
+      <tr>
+        <td><i class="fa-solid fa-check"></i></td>
+        <td>
+          <img
+            src="https://img.freepik.com/premium-psd/blue-sneakers-shoes-isolated-transparent-background-png-psd_888962-1578.jpg"
+            alt=""
+          />
+        </td>
+        <td class="dark-blue">
+          Boots <br />
+          BU1171
+        </td>
+        <td class="sky-blue">Boots</td>
+        <td class="sky-blue">in stock</td>
+        <td class="dark-blue">$115.000</td>
+        <td>
+          <span class="one-sided-round left">-</span
+          ><span class="square dark-blue">0</span
+          ><span class="one-sided-round right">+</span>
+        </td>
+        <td><i class="fa-solid fa-cart-shopping"></i></td>
+        <td><i class="fa-solid fa-eye"></i></td>
+        <td class="sky-blue">112</td>
+        <td class="sky-blue">5 <i class="fa-solid fa-star"></i></td>
+        <td>
+          <i class="fa-solid fa-heart"></i
+          ><i class="fa-solid fa-arrow-right-arrow-left"></i>
+        </td>
+      </tr>
+      <tr class="blue">
+        <td>Check</td>
+        <td>Thumbnails</td>
+        <td>Product Title <i class="fa-solid fa-arrow-down"></i></td>
+        <td>Category <br /><i class="fa-solid fa-arrow-down"></i></td>
+        <td>Stock <br /><i class="fa-solid fa-arrow-down"></i></td>
+        <td>Price <i class="fa-solid fa-arrow-down"></i></td>
+        <td>Quantity</td>
+        <td>Action</td>
+        <td>Quick View</td>
+        <td>Sku</td>
+        <td>Rating</td>
+        <td>Wishlist & Compare</td>
+      </tr>
+    </table>
+  </body>
+</html>

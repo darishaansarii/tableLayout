@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.search-box {
+    width: 25%;
+    height: 2rem;
+    margin: 10px;
+    box-shadow: 0px 0px 8px grey;
+    border: none;
+    border-radius: 5px;
+    padding-left: 40px;
+    background-image: url("https://www.freeiconspng.com/thumbs/search-icon-png/search-icon-png-5.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.search-box:focus {
+    outline: none;
+}
+
+.fa-arrow-up-wide-short {
+    position: relative;
+    right: 35px;
+}
+
+.add-to-cart {
+    text-transform: capitalize;
+    padding: 10px 15px;
+    background-color: #167f92;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+    left: 640px;
+}
+
+#checkbox-label {
+    position: relative;
+    left: 640px;
+    padding: 8px 14px;
+    border: none;
+    box-shadow: 0px 0px 5px grey;
+}
+
+#checkbox {
+    position: relative;
+    left: 8px;
+    top: 3px;
+} 
+
+#category {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZmgn7KZfbDj1g4BFUtYI4a015CYrIu-HRA&s");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 10px 20px 10px;
+    padding-left: 30px;
+    border: none;
+    height: 2rem;
+    width: 28%;
+    box-shadow: 0 0 5px grey;
+}
+
+#stock {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/5166/5166970.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 0 20px 0px;
+    padding-left: 30px;
+    border: none;
+    height: 2rem;
+    width: 28%;
+    box-shadow: 0 0 5px grey;
+}
+
+#price {
+    background-image: url("https://w7.pngwing.com/pngs/998/957/png-transparent-black-dollar-sign-illustration-dollar-sign-united-states-dollar-icon-currency-symbol-dollar-sign-number-dollar-symbol-thumbnail.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 0 20px 10px;
+    padding-left: 30px;
+    border: none;
+    height: 2rem;
+    width: 28%;
+    box-shadow: 0 0 5px grey;
+}
+
+#category:focus, #stock:focus, #price:focus {
+    outline: none;
+}
+
+table {
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    width: 99%;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px grey;
+    border: 1px solid grey;
+    height: 500px;
+    border-collapse: collapse;
+}
+
+tr, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.blue {
+    background-color: #167f92;
+    color: white;
+}
+
+.fa-check {
+    background-color: #167f92;
+    padding: 3px;
+    font-size: small;
+    color: white;
+    cursor: pointer;
+}
+
+.dark-blue {
+    color: #052c35;
+    font-weight: bold;
+}
+
+.sky-blue {
+    color: #0a5d70;
+}
+
+img {
+    width: 100%;
+    height: 80px;
+}
+
+.fa-cart-shopping, .fa-cart-shopping, .fa-heart, .fa-arrow-right-arrow-left, .fa-eye {
+    padding: 7px;
+    color: white;
+    font-size: small;
+    background-color: #167f92;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fa-star {
+    font-size: small;
+}
+
+.one-sided-round {
+    background-color: #167f92; 
+    border-radius: 50px; 
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 12px; 
+    display: inline-block;
+    text-align: center;
+    line-height: 20px; 
+    cursor: pointer; 
+}
+
+.one-sided-round.left {
+    border-top-right-radius: 0; 
+    border-bottom-right-radius: 0;
+}
+
+.one-sided-round.right {
+    border-top-left-radius: 0; 
+    border-bottom-left-radius: 0;
+}
+
+.square {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    color: #167f92;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #18b2ce;
+    box-sizing: border-box; 
+}
+
+
